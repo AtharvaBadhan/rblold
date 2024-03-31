@@ -1,0 +1,35 @@
+.logo {
+  height: 120px;
+}
+
+.text22 {
+  font-weight: 700;
+  font-family: 20px;
+  line-height: 20px;
+}
+
+.text33 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.borderCo {
+  border: 1px solid #ffc738;
+  border-radius: 20px;
+}
+
+.conCo {
+  /* height: 100vh; */
+}
+
+.select {
+  width: 100%;
+  padding-top: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  .conCo {
+    height: auto;
+  }
+}

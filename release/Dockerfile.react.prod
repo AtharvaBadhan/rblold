@@ -1,0 +1,28 @@
+######################################################### REACT CONTAINER####################
+FROM node:20
+
+MAINTAINER Lokesh Singh <lokeshsingh417@gmail.com>
+
+# Create app directory
+RUN mkdir -p /var/www/html
+WORKDIR /var/www/html
+
+# Install all dependencies of the current project.
+# COPY ./frontend/package.json package.json
+# RUN npm install
+
+# Copy all local files into the image.
+COPY ./release .
+
+
+
+RUN npm install -g react-scripts
+RUN npm install -g serve
+
+# RUN npm run build
+
+EXPOSE 5000
+###############################################################################################
+CMD serve -s build -l 5000
+# RUN apk del tzdata
+# make entrypoint prod sh

@@ -1,0 +1,35 @@
+.cardContainer {
+  border: 1px solid #ffc738;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.conCo {
+  height: 100vh;
+}
+
+.icon {
+  height: 120px;
+}
+
+.breadCrumb {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 750px) {
+  .conCo {
+    height: 100%;
+  }
+}

@@ -1,0 +1,60 @@
+.verificationTxt {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.logo {
+  height: 180px;
+}
+
+.otpInput {
+  width: 3.5em !important;
+  height: 3.5em;
+  margin: 4px;
+}
+
+.otpInput input {
+  border-radius: 10px !important;
+  padding-left: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #f1f1ee;
+}
+
+.timer {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+}
+.otpInputContainer {
+  padding: 20px;
+}
+
+.loginButton {
+  background: #ffc738;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 80px;
+}
+
+.loginText {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.resendButton {
+  background: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 80px;
+}
+
+.resendText {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+}

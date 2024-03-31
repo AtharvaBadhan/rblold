@@ -1,0 +1,149 @@
+.breadCrumb {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.whiteHr {
+  color: #ffffff;
+}
+
+.text1 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  /* color: #ffffff; */
+}
+
+.icon {
+  height: 120px;
+}
+
+.submitBtn {
+  border: 1px solid #ffc738;
+  border-radius: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 13px;
+  width: 100%;
+  padding-bottom: 13px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  background-color: #ffc738;
+}
+
+.resetBtn {
+  border: 1px solid #ffc738;
+  border-radius: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #ffc738;
+}
+
+.formInput label {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  padding-bottom: 8px;
+}
+.formInput input {
+  border-radius: 10px !important;
+  padding-left: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #f1f1ee;
+}
+.formInput input:hover,
+.formInput input:focus {
+  background: #f1f1ee !important;
+}
+
+.formInput input::placeholder {
+  color: #111111;
+  opacity: 0.3;
+  font-size: 0.9rem;
+}
+
+.loginText {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.conCo {
+  height: 100vh;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #ffc738;
+}
+
+.myTable {
+  background-color: #ffffff;
+}
+
+.view {
+  padding-left: 7px;
+  padding-right: 7px;
+  cursor: pointer;
+}
+
+.delete {
+  padding-left: 7px;
+  padding-right: 7px;
+
+  cursor: pointer;
+}
+
+.edit {
+  padding-left: 7px;
+  padding-right: 7px;
+
+  cursor: pointer;
+}
+
+.formInput label {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  padding-bottom: 8px;
+}
+.formInput input {
+  border-radius: 10px !important;
+  padding-left: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #f1f1ee;
+}
+.formInput input:hover,
+.formInput input:focus {
+  background: #f1f1ee !important;
+}
+
+.formInput input::placeholder {
+  color: #111111;
+  opacity: 0.3;
+  font-size: 0.9rem;
+}
+
+.overScroll {
+  overflow: scroll;
+}
+
+@media only screen and (max-width: 600px) {
+  .conCo {
+    height: auto;
+  }
+}

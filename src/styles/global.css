@@ -1,0 +1,46 @@
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Lato", "system-ui", "-apple-system", "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "sans-serif",
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #1d2b44;
+}
+p {
+  margin-bottom: 0rem;
+}
+
+/* bg colors start */
+.primaryColor {
+  color: #1d2b45;
+}
+.primaryColor2 {
+  color: #ffc738;
+}
+.secondaryColor {
+  color: #ffffff;
+}
+
+.primaryBgColor {
+  background-color: #1d2b44;
+}
+
+.secondaryBgColor {
+  background-color: #ffc738;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.noDecoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.errorText {
+  display: flex;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #dc3545;
+}
